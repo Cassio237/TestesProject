@@ -1,0 +1,109 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: #fff9b9;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+header nav .navbar {
+  list-style: none;
+  display: flex;
+}
+
+header nav .navbar a {
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+header nav .navbar a:hover {
+  background-color: #555;
+}
+
+#navbar-placeholder {
+  margin-left: auto;
+}
+
+#toggle-theme {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#toggle-theme:hover {
+  background-color: #555;
+}
+
+.outer-container {
+  width: 95%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: block;
+  background-color: #f0f0f0;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.outer-container.dark-theme{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.inner-container {
+  width: 85%;
+  height: 85%;
+  background-color: #d1d1d1;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.inner-container.dark-theme {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+.javaTog {
+  background-color: #4c66af;
+  width: 55px;
+  height: 55px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-right: 20px;
+}
+
+#conteudo1 {
+  background-color: #4c66af;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-right: 20px;
+}
+
+#imgjava {
+  width: 50px;
+  height: 50px;
+}
+
+.hidden {
+  display: none;
+}
